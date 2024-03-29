@@ -15,6 +15,8 @@ public class Plot : MonoBehaviour
     private Color startColor;
     private Turret turret;
     private TowerIce iceturret;
+    private TurretSniper sniperturret;
+    private TurretBomb bombturret;
 
     private void Start()
     {
@@ -48,6 +50,11 @@ public class Plot : MonoBehaviour
             iceturret.OpenUpgradeUI();
             return;
         }
+        if (sniperturret != null)
+        {
+            sniperturret.OpenUpgradeUI();
+            return;
+        }
         
         Tower towerToBuild = BuildManager.main.GetSelectedTower();
         if (towerToBuild.cost > LevelManager.main.currency)
@@ -64,6 +71,12 @@ public class Plot : MonoBehaviour
         } else if (towerToBuild.name == "Ice Turret")
         {
             iceturret = towerObj.GetComponent<TowerIce>();
+        } else if (towerToBuild.name == "Sniper Turret")
+        {
+            sniperturret = towerObj.GetComponent<TurretSniper>();
+        } else if (towerToBuild.name == "Bomb Turret")
+        {
+            bombturret = towerObj.GetComponent<TurretBomb>();
         }
         
     }
