@@ -7793,7 +7793,7 @@ MonoBehaviour:
   - {fileID: 28104866}
   - {fileID: 565592361}
   startPoint: {fileID: 405848538}
-  currency: 250
+  currency: 300
 --- !u!4 &1521712524
 Transform:
   m_ObjectHideFlags: 0
