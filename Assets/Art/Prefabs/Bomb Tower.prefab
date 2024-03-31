@@ -108,7 +108,7 @@ MonoBehaviour:
   upgradeButton: {fileID: 1270720914731847340}
   targetingRange: 4
   bps: 1
-  upgradeCost: 100
+  upgradeCost: 350
   damage: 1
 --- !u!1 &872112983749496553
 GameObject:

@@ -55,6 +55,11 @@ public class Plot : MonoBehaviour
             sniperturret.OpenUpgradeUI();
             return;
         }
+        if (bombturret != null)
+        {
+            bombturret.OpenUpgradeUI();
+            return;
+        }
         
         Tower towerToBuild = BuildManager.main.GetSelectedTower();
         if (towerToBuild.cost > LevelManager.main.currency)

@@ -22,6 +22,7 @@ public class TurretSniper : MonoBehaviour
     [SerializeField] private float bps = 0.3f; // Bullets per second
     [SerializeField] private int upgradeCost = 100;
     [SerializeField] private int damage = 3;
+    [SerializeField] private int speed = 10;
     
 
     private Transform target;
@@ -98,7 +99,7 @@ public class TurretSniper : MonoBehaviour
     {
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
-        bulletScript.SetTarget(target, damage);
+        bulletScript.SetTarget(target, damage, speed);
     }
 
     public void OpenUpgradeUI()

@@ -103,7 +103,7 @@ MonoBehaviour:
     m_Bits: 64
   upgradeUI: {fileID: 9037577260835433922}
   upgradeButton: {fileID: 1270720914731847340}
-  targetingRange: 5
+  targetingRange: 4
   aps: 0.25
   freezeTime: 1
   upgradeCost: 200
