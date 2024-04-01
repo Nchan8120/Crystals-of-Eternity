@@ -29,12 +29,13 @@ public class LevelManager : MonoBehaviour
     public void IncreaseCurrency(int amount)
     {
         currency += amount;
-        IncreaseScore((int)Math.Floor((float)amount/5));
+        Events.events["currency"]?.Invoke(currency);
     }
 
     public void IncreaseScore(int amount)
     {
         score += amount;
+        /* HOLDS HIGHSCORE USING PLAYER PREFS
         if (PlayerPrefs.GetInt("HighScore") == 0)
         {
             PlayerPrefs.SetInt("HighScore", score);
@@ -44,7 +45,7 @@ public class LevelManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", score);
             print("HighScore set");
         }
-        Events.events["currency"]?.Invoke(currency);
+        */
         Events.events["score"]?.Invoke(score);
     }
 
