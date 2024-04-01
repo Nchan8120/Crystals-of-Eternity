@@ -40,10 +40,8 @@ public class AchievementType : MonoBehaviour
 
     public void checkAcheivement(int amount)
     {
-        print("Check Achievient called");
         if (amount > achievement.goal)
         {
-            print("Achievemnet called because amount:" + amount + " > goal:" + achievement.goal);
             achievement.achieved = true;
             Events.events[achievement.type].RemoveListener(checkAcheivement);
             PlayerPrefs.SetInt(achievement.name, 1);

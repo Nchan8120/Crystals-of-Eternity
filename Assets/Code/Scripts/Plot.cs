@@ -62,7 +62,6 @@ public class Plot : MonoBehaviour
         // Invokes the event tower and passes the amount of towers placed. It is used for achievements
         Events.events["tower"]?.Invoke(LevelManager.main.tower);
         // Adds score based on the cost of tower placed. Which should be related to the tower efficiency
-        print("Plot Score: " + (int)MathF.Floor(towerToBuild.cost / 10));
         LevelManager.main.IncreaseScore((int)MathF.Floor(towerToBuild.cost / 10));
 
         if (towerToBuild.name == "Basic Turret")
