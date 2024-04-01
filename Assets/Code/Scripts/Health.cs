@@ -20,7 +20,6 @@ public class Health : MonoBehaviour
             LevelManager.main.IncreaseCurrency(currencyWorth);
             isDestroyed = true;
             // Increases score depending on the worth of the enemy
-            print("Health score: " + (int)Mathf.Floor(currencyWorth / 5));
             LevelManager.main.IncreaseScore((int)Mathf.Floor(currencyWorth / 5));
             Destroy(gameObject);
         }

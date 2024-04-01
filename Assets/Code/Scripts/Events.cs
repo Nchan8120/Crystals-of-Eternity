@@ -15,8 +15,6 @@ public class Events : MonoBehaviour
 
     public static Dictionary<string, UnityEvent<int>> events;
 
-    public GameObject achievementUI;
-
     
     private void Awake()
     {
@@ -44,9 +42,6 @@ public class Events : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            achievementUI.SetActive(!achievementUI.activeSelf);
-        } 
+
     }
 }
