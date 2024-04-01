@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2999620410276391611}
   - component: {fileID: 5339370248443579185}
-  - component: {fileID: 692730866788416631}
+  - component: {fileID: 6634284305029562098}
   m_Layer: 0
-  m_Name: Ice Tower
+  m_Name: Sniper Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,6 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2875399569826241628}
+  - {fileID: 5193046524441015518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5339370248443579185
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.47071913, g: 0.76800436, b: 0.8113208, a: 1}
+  m_Color: {r: 0.5377486, g: 0.8117647, b: 0.47058824, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &692730866788416631
+--- !u!114 &6634284305029562098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,18 +96,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 568401077278876466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6927f20a582f4741a5601dff4fa3dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: b1dc96b091ef4d5408be429f4531a335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
+  bulletPrefab: {fileID: 6167984023554769285, guid: ba3c6af1a85cf5442b084c746d315bf4, type: 3}
+  firingPoint: {fileID: 5193046524441015518}
   upgradeUI: {fileID: 9037577260835433922}
   upgradeButton: {fileID: 1270720914731847340}
-  targetingRange: 4
-  aps: 0.25
-  freezeTime: 1
-  upgradeCost: 200
+  targetingRange: 15
+  bps: 0.25
+  upgradeCost: 300
+  damage: 3
+--- !u!1 &872112983749496553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5193046524441015518}
+  m_Layer: 0
+  m_Name: FiringPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5193046524441015518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872112983749496553}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2999620410276391611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3164039213977876791
 GameObject:
   m_ObjectHideFlags: 0

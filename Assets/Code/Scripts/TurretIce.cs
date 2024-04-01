@@ -48,7 +48,6 @@ public class TowerIce : MonoBehaviour
     {
         RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, 
             (Vector2)transform.position, 0f, enemyMask);
-        Debug.Log("Here");
         if (hits.Length > 0)
         {
             Debug.Log("Hit Enemy!");
