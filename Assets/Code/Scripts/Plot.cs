@@ -58,6 +58,8 @@ public class Plot : MonoBehaviour
 
         LevelManager.main.SpendCurrency(towerToBuild.cost);
         towerObj = Instantiate(towerToBuild.prefab, transform.position, quaternion.identity);
+        LevelManager.main.tower++;
+        Events.events["tower"]?.Invoke(LevelManager.main.tower);
         if (towerToBuild.name == "Basic Turret")
         {
             turret = towerObj.GetComponent<Turret>();
