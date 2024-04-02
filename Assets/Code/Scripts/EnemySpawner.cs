@@ -23,6 +23,7 @@ public class EnemySpawner : MonoBehaviour
     private int currentWave = 1;
     private float timeSinceLastSpawn;
     private int enemiesAlive;
+    private int enemiesDead = 0;
     private int enemiesLeftToSpawn;
     private float eps; // enemies per second
     private bool isSpawning = false;
@@ -62,6 +63,8 @@ public class EnemySpawner : MonoBehaviour
     private void EnemyDestroyed()
     {
         enemiesAlive--;
+        enemiesDead++;
+        Events.events["enemy"]?.Invoke(enemiesDead);
     }
 
     private IEnumerator StartWave()
