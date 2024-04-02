@@ -150,5 +150,25 @@ public class TurretBomb : MonoBehaviour
         Handles.color = Color.cyan;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
     }
+
+    public void SetBPS(float bullet_speed)
+    {
+        bps = bullet_speed;
+    }
+
+    public float GetBPS()
+    {
+        return bps;
+    }
+
+    public void SetDamage(int dmg)
+    {
+        damage = dmg;
+    }
+
+    public int GetDamage()
+    {
+        return damage;
+    }
 }
   

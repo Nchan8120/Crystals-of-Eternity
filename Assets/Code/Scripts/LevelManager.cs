@@ -20,12 +20,10 @@ public class LevelManager : MonoBehaviour
         main = this;
     }
 
-/*
     private void Start()
     {
         currency = 100;
     }
-*/
 
     public void IncreaseCurrency(int amount)
     {
