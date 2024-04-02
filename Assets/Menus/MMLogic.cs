@@ -20,7 +20,7 @@ public class MMLogic : MonoBehaviour
 
     public void OnTimedButton()
     {
-        SceneManager.LoadScene(1); // fix this to fit the correct scene if needed
+        SceneManager.LoadScene(5); // fix this to fit the correct scene if needed
     }
 
     public void OnWavesButton()
