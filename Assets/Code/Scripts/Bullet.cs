@@ -19,6 +19,13 @@ public class Bullet : MonoBehaviour
         target = _target;
     }
 
+    public void SetTarget(Transform _target, int dmg, int speed)
+    {
+        bulletSpeed = speed;
+        bulletDamage = dmg;
+        target = _target;
+    }
+    
     private void FixedUpdate()
     {
         if (!target)

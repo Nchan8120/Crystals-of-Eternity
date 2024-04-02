@@ -20,7 +20,6 @@ public class LevelManager : MonoBehaviour
         main = this;
     }
 
-
     private void Start()
     {
         currency = 100;

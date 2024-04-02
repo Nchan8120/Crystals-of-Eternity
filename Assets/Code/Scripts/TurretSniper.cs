@@ -6,10 +6,10 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
 
-public class Turret : MonoBehaviour
+public class TurretSniper : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private Transform turretRotationPoint;
+    // [SerializeField] private Transform turretRotationPoint;
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
@@ -17,10 +17,12 @@ public class Turret : MonoBehaviour
     [SerializeField] private Button upgradeButton;
     
     [Header("Attribute")] 
-    [SerializeField] private float targetingRange = 5f;
-    [SerializeField] private float rotationSpeed = 200f;
-    [SerializeField] private float bps = 1f; // Bullets per second
+    [SerializeField] private float targetingRange = 100f;
+    // [SerializeField] private float rotationSpeed = 200f;
+    [SerializeField] private float bps = 0.3f; // Bullets per second
     [SerializeField] private int upgradeCost = 100;
+    [SerializeField] private int damage = 3;
+    [SerializeField] private int speed = 10;
     
 
     private Transform target;
@@ -45,7 +47,7 @@ public class Turret : MonoBehaviour
             return;
         }
         
-        RotateTowardsTarget();
+        //RotateTowardsTarget();
         if (!CheckTargetInRange())
         {
             target = null;
@@ -78,6 +80,7 @@ public class Turret : MonoBehaviour
         }
     }
 
+/*
     private void RotateTowardsTarget()
     {
         float angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) *
@@ -85,6 +88,7 @@ public class Turret : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
         turretRotationPoint.rotation = Quaternion.RotateTowards(turretRotationPoint.rotation, targetRotation, rotationSpeed* Time.deltaTime);
     }
+*/
 
     private bool CheckTargetInRange()
     {
@@ -95,7 +99,7 @@ public class Turret : MonoBehaviour
     {
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
-        bulletScript.SetTarget(target);
+        bulletScript.SetTarget(target, damage, speed);
     }
 
     public void OpenUpgradeUI()
@@ -141,6 +145,12 @@ public class Turret : MonoBehaviour
     {
         return (baseTargetingRange * Mathf.Pow(level, 0.4f));
     }
+    
+    private void OnDrawGizmosSelected()
+    {
+        Handles.color = Color.cyan;
+        Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+    }
 
     public void SetBPS(float bullet_speed)
     {
@@ -152,13 +162,14 @@ public class Turret : MonoBehaviour
         return bps;
     }
 
-    public void SetRotationSpeed(float speed)
+    public void SetDamage(int dmg)
     {
-        rotationSpeed = speed;
+        damage = dmg;
     }
 
-    public float GetRotationSpeed()
+    public int GetDamage()
     {
-        return rotationSpeed;
+        return damage;
     }
 }
+  
