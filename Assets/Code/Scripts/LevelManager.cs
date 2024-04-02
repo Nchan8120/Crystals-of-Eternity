@@ -16,13 +16,12 @@ public class LevelManager : MonoBehaviour
     public int tower; // tower count
     public int health = 100;
 
-    public int gamemode = 1; // 1 for time, 0 for health/waves
+    public int gamemode; // 1 for time, 0 for health/waves
 
     private void Awake()
     {
         main = this;
     }
-
 
     private void Start()
     {
