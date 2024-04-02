@@ -25,7 +25,9 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        currency = 100;
+        currency = 1000;
+        score = 0;
+        health = 100;
     }
 
 
@@ -38,17 +40,6 @@ public class LevelManager : MonoBehaviour
     public void IncreaseScore(int amount)
     {
         score += amount;
-        /* HOLDS HIGHSCORE USING PLAYER PREFS
-        if (PlayerPrefs.GetInt("HighScore") == 0)
-        {
-            PlayerPrefs.SetInt("HighScore", score);
-        }
-        if (PlayerPrefs.GetInt("HighScore") < score)
-        {
-            PlayerPrefs.SetInt("HighScore", score);
-            print("HighScore set");
-        }
-        */
         Events.events["score"]?.Invoke(score);
     }
 
@@ -65,5 +56,25 @@ public class LevelManager : MonoBehaviour
             Debug.Log("not enough money");
             return false;
         }
+    }
+
+    public void DecreaseHealth(int amount)
+    {
+        this.health -= amount;
+    }
+
+    public void IncreaseHealth(int amount)
+    {
+        this.health += amount;
+    }
+
+    public string getPlayerScore()
+    {
+        return this.score.ToString();
+    }
+
+    public bool IsAlive()
+    {
+        return this.health > 0;
     }
 }

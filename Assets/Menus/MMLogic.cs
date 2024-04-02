@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MMLogic : MonoBehaviour
 {
+
+    public GameObject playButton;
+    public GameObject timedButton;
+    public GameObject wavesButton;
+
+
     public void OnPlayButton()
     {
         playButton.SetActive(false);
