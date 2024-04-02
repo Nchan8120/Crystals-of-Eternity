@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class LevelManager : MonoBehaviour
     public int score = 0;
     public int tower; // tower count
     public int health = 100;
+
+    public Slider healthSlider;
 
     public int gamemode; // 1 for time, 0 for health/waves. is set in scene inspector
 
@@ -30,6 +33,10 @@ public class LevelManager : MonoBehaviour
         health = 100;
     }
 
+    private void Update()
+    {
+        healthSlider.value = health;
+    }
 
     public void IncreaseCurrency(int amount)
     {
