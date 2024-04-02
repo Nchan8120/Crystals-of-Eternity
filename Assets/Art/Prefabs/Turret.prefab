@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 7118517040128515376}
   m_Layer: 0
   m_Name: Turret
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,6 +628,7 @@ MonoBehaviour:
   targetingRange: 3
   rotationSpeed: 200
   bps: 2
+  upgradeCost: 100
 --- !u!1 &8150106806235667921
 GameObject:
   m_ObjectHideFlags: 0
