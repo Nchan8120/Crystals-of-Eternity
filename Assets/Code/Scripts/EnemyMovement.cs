@@ -29,6 +29,9 @@ public class EnemyMovement : MonoBehaviour
 
             if (pathIndex == LevelManager.main.path.Length)
             {
+                // Decrease the player's health by 5
+                PlayerHealth.main.health -= 5;
+
                 EnemySpawner.onEnemyDestroy.Invoke();
                 Destroy(gameObject);
                 return;

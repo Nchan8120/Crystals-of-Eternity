@@ -23,14 +23,12 @@ public class LevelManager : MonoBehaviour
         main = this;
     }
 
-
     private void Start()
     {
         currency = 1000;
         score = 0;
         health = 100;
     }
-
 
     public void IncreaseCurrency(int amount)
     {
