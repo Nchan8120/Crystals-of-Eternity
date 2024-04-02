@@ -141,24 +141,4 @@ public class Turret : MonoBehaviour
     {
         return (baseTargetingRange * Mathf.Pow(level, 0.4f));
     }
-
-    public void SetBPS(float bullet_speed)
-    {
-        bps = bullet_speed;
-    }
-
-    public float GetBPS()
-    {
-        return bps;
-    }
-
-    public void SetRotationSpeed(float speed)
-    {
-        rotationSpeed = speed;
-    }
-
-    public float GetRotationSpeed()
-    {
-        return rotationSpeed;
-    }
 }

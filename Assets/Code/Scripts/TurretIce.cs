@@ -121,24 +121,4 @@ public class TowerIce : MonoBehaviour
         Handles.color = Color.cyan;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
     }*/
-
-    public void SetAPS(float attack_speed)
-    {
-        aps = attack_speed;
-    }
-
-    public float GetAPS()
-    {
-        return aps;
-    }
-
-    public void SetFreezeTime(float time)
-    {
-        freezeTime = time;
-    }
-
-    public float GetFreezeTime()
-    {
-        return freezeTime;
-    }
 }
