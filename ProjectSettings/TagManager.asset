@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Event System
+  - Tower
   layers:
   - Default
   - TransparentFX
