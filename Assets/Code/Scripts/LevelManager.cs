@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
     public int tower; // tower count
     public int health = 100;
 
-    public int gamemode; // 1 for time, 0 for health/waves
+    public int gamemode; // 1 for time, 0 for health/waves. is set in scene inspector
 
     private void Awake()
     {

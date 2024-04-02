@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Menus/Settings.unity
     guid: ffbef736a4c2dc54e9476eab040322c8
+  - enabled: 1
+    path: Assets/Scenes/Timed Gamemode.unity
+    guid: cf2544f62e65ce347aa96f90906b0a41
   m_configObjects: {}
