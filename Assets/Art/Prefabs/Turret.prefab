@@ -396,7 +396,7 @@ Transform:
   m_GameObject: {fileID: 4689660312195672484}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.461, y: 0.012, z: 0}
+  m_LocalPosition: {x: 0.45, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 7118517040128515376}
   m_Layer: 0
   m_Name: Turret
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,6 +628,7 @@ MonoBehaviour:
   targetingRange: 3
   rotationSpeed: 200
   bps: 2
+  upgradeCost: 100
 --- !u!1 &8150106806235667921
 GameObject:
   m_ObjectHideFlags: 0

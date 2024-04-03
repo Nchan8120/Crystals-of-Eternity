@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 {
     [Header("References")] 
     [SerializeField] private TextMeshProUGUI currencyUI;
+    [SerializeField] private TextMeshProUGUI scoreUI;
 
     [SerializeField] private Animator anim;
 
@@ -22,5 +23,6 @@ public class Menu : MonoBehaviour
     private void OnGUI()
     {
         currencyUI.text = LevelManager.main.currency.ToString();
+        scoreUI.text = LevelManager.main.score.ToString();
     }
 }
