@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TowerBoost : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class TowerBoost : MonoBehaviour
     bool isBoostingTower;
     bool isBoostingHealth;
     bool isBoostingCurrency;
+
+    public Image TowerBoostImg;
+    public Image HealthBoostImg;
+    public Image CurrencyBoostImg;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,9 +32,13 @@ public class TowerBoost : MonoBehaviour
         isBoostingCurrency = true;
         print("Boosting currency started");
 
+        CurrencyBoostImg.color = Color.gray;
+
         LevelManager.main.IncreaseCurrency(amount);
 
         yield return new WaitForSeconds(seconds);
+
+        CurrencyBoostImg.color = Color.white;
 
         isBoostingCurrency = false;
         print("Boosting currency ended");
@@ -40,9 +49,13 @@ public class TowerBoost : MonoBehaviour
         isBoostingHealth = true;
         print("Boosting health started");
 
+        HealthBoostImg.color = Color.gray;
+
         LevelManager.main.IncreaseHealth(amount);
 
         yield return new WaitForSeconds(seconds);
+
+        HealthBoostImg.color = Color.white;
 
         isBoostingHealth = false;
         print("Boosting health ended");
@@ -54,6 +67,9 @@ public class TowerBoost : MonoBehaviour
         isBoostingTower = true;
         print("Boosting tower started");
         Towers = GameObject.FindGameObjectsWithTag("Tower");
+
+        TowerBoostImg.color = Color.gray;
+
         foreach (GameObject tower in Towers)
         {
             // Boosts Bomb towers
@@ -142,6 +158,7 @@ public class TowerBoost : MonoBehaviour
             }
         }
 
+        TowerBoostImg.color = Color.white;
 
         isBoostingTower = false;
         print("boosting tower ended");
