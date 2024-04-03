@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1dc96b091ef4d5408be429f4531a335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretRotationPoint: {fileID: 5350233833119537326}
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
@@ -55,6 +56,7 @@ MonoBehaviour:
   upgradeUI: {fileID: 9037577260835433922}
   upgradeButton: {fileID: 1270720914731847340}
   targetingRange: 15
+  rotationSpeed: 200
   bps: 0.25
   upgradeCost: 300
   damage: 3
