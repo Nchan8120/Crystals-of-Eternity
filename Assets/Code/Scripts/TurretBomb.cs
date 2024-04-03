@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class TurretBomb : MonoBehaviour
 {
     [Header("References")]
-    // [SerializeField] private Transform turretRotationPoint;
+    [SerializeField] private Transform turretRotationPoint;
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
@@ -18,7 +18,7 @@ public class TurretBomb : MonoBehaviour
     
     [Header("Attribute")] 
     [SerializeField] private float targetingRange = 4f;
-    // [SerializeField] private float rotationSpeed = 200f;
+    [SerializeField] private float rotationSpeed = 200f;
     [SerializeField] private float bps = 1f; // Bullets per second
     [SerializeField] private int upgradeCost = 100;
     [SerializeField] private int damage = 2;
@@ -46,7 +46,7 @@ public class TurretBomb : MonoBehaviour
             return;
         }
         
-        //RotateTowardsTarget();
+        RotateTowardsTarget();
         if (!CheckTargetInRange())
         {
             target = null;
@@ -79,7 +79,7 @@ public class TurretBomb : MonoBehaviour
         }
     }
 
-/*
+
     private void RotateTowardsTarget()
     {
         float angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) *
@@ -87,7 +87,7 @@ public class TurretBomb : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
         turretRotationPoint.rotation = Quaternion.RotateTowards(turretRotationPoint.rotation, targetRotation, rotationSpeed* Time.deltaTime);
     }
-*/
+
 
     private bool CheckTargetInRange()
     {

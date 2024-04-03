@@ -121,7 +121,260 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bomb_turret_FACE_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 293
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d52b9b61951544bab0be6559d137d0
+      internalID: 74319069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee1de8e345a9f40a3167da13479b02
+      internalID: 1905186712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 229
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300c1cade1cda87429ae892d7ff99b33
+      internalID: -113255556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6153538ed12ce149a7c0ad6eda66075
+      internalID: -1564378726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 164
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c3459ed793eeb4ea4391cd32d8a2a6
+      internalID: -1721237317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41320ec98272b964fa63b7a7c2480777
+      internalID: 1818155739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208695778eb6be14e86766286c84a5d1
+      internalID: -200027086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc16c3d798d37d44b2bf0bc2fe3bba6
+      internalID: -149277292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5172cb92aa18b4c98ff15f65855f30
+      internalID: 1589872374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda43081ed97cdd40892af7b66e8d6ce
+      internalID: -2013398082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aba33eb6e4ede547bf3146d2028a78b
+      internalID: -683646512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_turret_FACE_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9aeb0f86f84ff4695026733dc7cc1a
+      internalID: -763267868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+      
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +385,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+
+    nameFileIdTable:
+      bomb_turret_FACE_0: 74319069
+      bomb_turret_FACE_1: 1905186712
+      bomb_turret_FACE_10: -683646512
+      bomb_turret_FACE_11: -763267868
+      bomb_turret_FACE_2: -113255556
+      bomb_turret_FACE_3: -1564378726
+      bomb_turret_FACE_4: -1721237317
+      bomb_turret_FACE_5: 1818155739
+      bomb_turret_FACE_6: -200027086
+      bomb_turret_FACE_7: -149277292
+      bomb_turret_FACE_8: 1589872374
+      bomb_turret_FACE_9: -2013398082
+
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
