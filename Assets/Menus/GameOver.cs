@@ -24,6 +24,8 @@ public class GameOver : MonoBehaviour
 
     private bool countdownStarted = false;
 
+    private AudioManager audioManager;
+
     private void Start()
     {
 
@@ -65,6 +67,10 @@ public class GameOver : MonoBehaviour
         if (GameEnd)
         {
             // You can put additional logic here for the game over state if needed
+            if (audioManager != null)
+            {
+                audioManager.StopMusic();
+            }
         }
     }
  

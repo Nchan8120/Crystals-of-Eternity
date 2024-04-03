@@ -16,6 +16,8 @@ public class TurretSniper : MonoBehaviour
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
     
+    private AudioManager audioManager;
+
     [Header("Attribute")] 
     [SerializeField] private float targetingRange = 100f;
     // [SerializeField] private float rotationSpeed = 200f;
@@ -30,6 +32,11 @@ public class TurretSniper : MonoBehaviour
     private int level;
     private float baseBps;
     private float baseTargetingRange;
+
+    public void Awake()
+    {
+        audioManager = AudioManager.Instance;
+    }
 
     private void Start()
     {
@@ -100,6 +107,11 @@ public class TurretSniper : MonoBehaviour
         GameObject bulletObj = Instantiate(bulletPrefab, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target, damage, speed);
+
+        if(audioManager != null)
+        {
+            audioManager.PlaySFX("SniperShot");
+        }
     }
 
     public void OpenUpgradeUI()

@@ -11,6 +11,8 @@ public class TowerIce : MonoBehaviour
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
+
+    private AudioManager audioManager;
     
     [Header("Attribute")] 
     [SerializeField] private float targetingRange = 5f;
@@ -23,6 +25,11 @@ public class TowerIce : MonoBehaviour
     private float baseAps;
     private float baseFreezeTime;
     private float baseTargetingRange;
+
+    public void Awake()
+    {
+        audioManager = AudioManager.Instance;
+    }
 
     private void Start()
     {
@@ -58,6 +65,11 @@ public class TowerIce : MonoBehaviour
                 em.UpdateSpeed(0.25f);
                 StartCoroutine(ResetEnemySpeed(em));
             }
+        }
+
+        if(audioManager != null)
+        {
+            audioManager.PlaySFX("IceShot");
         }
     }
     
