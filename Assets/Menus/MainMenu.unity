@@ -1977,6 +1977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1469007598312580615, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3517946459728636991, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
       propertyPath: m_Name
       value: AchievementUI
@@ -1988,6 +1992,18 @@ PrefabInstance:
     - target: {fileID: 6042543011153047881, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412461910416212392, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412461910416212392, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412461910416212392, guid: 57a2dd016f37745498d7bccb46f373e2, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
