@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
     [Header("References")] 
     [SerializeField] private TextMeshProUGUI currencyUI;
     [SerializeField] private TextMeshProUGUI scoreUI;
+    //new
+    [SerializeField] private TextMeshProUGUI waveUI;
 
     [SerializeField] private Animator anim;
 
@@ -24,5 +26,7 @@ public class Menu : MonoBehaviour
     {
         currencyUI.text = LevelManager.main.currency.ToString();
         scoreUI.text = LevelManager.main.score.ToString();
+        //new
+        waveUI.text = "Wave: " + FindObjectOfType<EnemySpawner>().currentWave.ToString();
     }
 }
