@@ -121,7 +121,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     sprites:
     - serializedVersion: 2
       name: sniper_turret_FACE_0
@@ -138,8 +141,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: ee10bbdbe05848546b8a43742d45c4f5
       internalID: -854987548
+=======
+      spriteID: c947517b01c91e449a7a49bf5b48d789
+      internalID: -1070887916
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -159,8 +167,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 16bb3b200b1a8b449b416318d0f5d6b0
       internalID: 1985235213
+=======
+      spriteID: aceffead5c9927942b846baeb543a25d
+      internalID: -2017796082
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -180,8 +193,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 8d227818bda88384ab9addc2ecb78f7e
       internalID: 178017943
+=======
+      spriteID: bf293eebb368fd745b33ba65e6fba731
+      internalID: -470143133
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -201,8 +219,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: f6902ab983c106d4f8b2f391cdb8d088
       internalID: 2072042188
+=======
+      spriteID: 65f905e5314fb35409c9bb17ee92b53e
+      internalID: 110759115
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -222,8 +245,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: acb81dfaec260fd4f8820c03fc143efa
       internalID: -1886004424
+=======
+      spriteID: bbfef6266d09879428ee8cbf6c96a2f6
+      internalID: -1483520659
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -243,8 +271,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 5bde343f44b22004895b3a7b7ce51d72
       internalID: 244618258
+=======
+      spriteID: f6a8acd1f5882d64992cd0564d1c6a4e
+      internalID: 1442711429
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -264,8 +297,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: cac9e6b874f3f4641ac7fabcc1a904e2
       internalID: -1351870182
+=======
+      spriteID: 41a487696a29c79429f315f3cdd0f711
+      internalID: 955580500
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -285,8 +323,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: e814d7bbf0747cc4abe81e85abc3c0cb
       internalID: 569083241
+=======
+      spriteID: 04e0a23a1be85e0448091dd7778a6321
+      internalID: 1569546258
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -306,8 +349,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: aaaf7b768d9e00d47a775fb1f1514306
       internalID: 9915406
+=======
+      spriteID: 70d099213c0436d419cc5e58d9aa5bec
+      internalID: -1268032376
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -327,8 +375,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 8e6a80eedf97a43459ae8b5031e60382
       internalID: -504759225
+=======
+      spriteID: 8af35fb063049994cb17166d3d82ae3b
+      internalID: 1690321025
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -348,8 +401,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 980ac34e4047f1f42bad1f2c951c4f78
       internalID: 311627674
+=======
+      spriteID: 294eee24e1250f3408fd657595cb1b50
+      internalID: 20361037
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -369,13 +427,21 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: de8ee58442809494abbc9dd9299787a4
       internalID: 680666437
+=======
+      spriteID: 52fea797c876a324e90c6f34d50bbfc1
+      internalID: 639322614
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
@@ -386,6 +452,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream
 
     nameFileIdTable:
       sniper_turret_FACE_0: -854987548
@@ -401,6 +468,21 @@ TextureImporter:
       sniper_turret_FACE_8: 9915406
       sniper_turret_FACE_9: -504759225
 
+=======
+    nameFileIdTable:
+      sniper_turret_FACE_0: -1070887916
+      sniper_turret_FACE_1: -2017796082
+      sniper_turret_FACE_10: 20361037
+      sniper_turret_FACE_11: 639322614
+      sniper_turret_FACE_2: -470143133
+      sniper_turret_FACE_3: 110759115
+      sniper_turret_FACE_4: -1483520659
+      sniper_turret_FACE_5: 1442711429
+      sniper_turret_FACE_6: 955580500
+      sniper_turret_FACE_7: 1569546258
+      sniper_turret_FACE_8: -1268032376
+      sniper_turret_FACE_9: 1690321025
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

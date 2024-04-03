@@ -47,7 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b166534ff5792946a8b7b783e2911b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   turretRotationPoint: {fileID: 9132310616345844982}
+=======
+>>>>>>> Stashed changes
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
@@ -56,7 +59,10 @@ MonoBehaviour:
   upgradeUI: {fileID: 9037577260835433922}
   upgradeButton: {fileID: 1270720914731847340}
   targetingRange: 4
+<<<<<<< Updated upstream
   rotationSpeed: 200
+=======
+>>>>>>> Stashed changes
   bps: 1
   upgradeCost: 350
   damage: 1
@@ -491,7 +497,11 @@ SpriteRenderer:
   m_SortingLayerID: -1164140437
   m_SortingLayer: 1
   m_SortingOrder: 1
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 74319069, guid: 34c185bdaa2564477898aaf4db14763d, type: 3}
+=======
+  m_Sprite: {fileID: -1329288809, guid: 34c185bdaa2564477898aaf4db14763d, type: 3}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
