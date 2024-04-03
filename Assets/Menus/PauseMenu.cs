@@ -55,7 +55,14 @@ public class PauseMenu : MonoBehaviour
 
     public void OnRestartButton()
     {
-        SceneManager.LoadScene(1);
+        if (LevelManager.main.gamemode == 1)
+        {
+            SceneManager.LoadScene(5);
+        }
+        else
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     public void OnQuitButton()

@@ -8,7 +8,7 @@ public class GameOver : MonoBehaviour
     public static bool GameEnd = false;
     public GameObject GameOverUI;
 
-    private float timerDuration = 10f; // 3 minutes in seconds
+    private float timerDuration = 60f; // 3 minutes in seconds
     private float timer;
 
     public TMP_InputField usernameInput;
