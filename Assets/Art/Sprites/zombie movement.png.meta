@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c79cbec549a9d42ef89f1f88f269db51
+guid: 51ba9889a9e90462ab2e460907d3259a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,162 +121,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-
     sprites:
     - serializedVersion: 2
-      name: ice_turret_FACE_0
+      name: zombie movement_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 293
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca6ce4f65a3685245a4c15f9d0396343
-      internalID: 462312173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 259
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daa19685001968440b530990f0941abb
-      internalID: -1682189746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 229
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09f1fc29f4867b945a38c116cd2cda4a
-      internalID: -1303255582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_3
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 196
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5da94d94b942d344a9d74b60574a2cc6
-      internalID: 277835405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 164
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f82bd7c4c6dfea5458ed0301bc68a7c9
-      internalID: 1102254437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_5
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 132
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c458b3faa87021e4a9ae86ba9d661e24
-      internalID: -1946185427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_6
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 100
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 138316ccb0eb16046b45571a0dea0fd0
-      internalID: 636280568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ice_turret_FACE_7
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 66
-        width: 29
+        x: 16
+        y: 106
+        width: 24
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -285,20 +137,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2551e63753c3e9a4687e760e5b30b82f
-      internalID: 1341486500
+      spriteID: 910b44fe50ec245078e3bee3444b5aac
+      internalID: 227882335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice_turret_FACE_8
+      name: zombie movement_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 37
+        x: 64
+        y: 106
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a839a05d8148d5ae41181a1d9a7f3
+      internalID: 313112318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie movement_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 106
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f29490a6b04248fd895328de7c3c9c1
+      internalID: 1096084510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie movement_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 58
         width: 22
-        height: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5484f1f759f062a43b431fe1fd2ac6e5
-      internalID: 134501524
+      spriteID: ef26ea696bfc14a5b86e8b9e100b6c6f
+      internalID: 130885214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice_turret_FACE_9
+      name: zombie movement_4
       rect:
         serializedVersion: 2
-        x: 24
-        y: 49
-        width: 6
-        height: 7
+        x: 63
+        y: 58
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553ff25f285609e46837fe70e74c96b9
-      internalID: -1150726269
+      spriteID: 05023753ecded495e8239f968d93e071
+      internalID: 866748656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice_turret_FACE_10
+      name: zombie movement_5
       rect:
         serializedVersion: 2
-        x: 24
-        y: 40
-        width: 6
-        height: 7
+        x: 112
+        y: 58
+        width: 21
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a646f50ac5be09c47b6c6cc3d2127c33
-      internalID: -2051613456
+      spriteID: 2a30488aec6d348ee95f3f1e1732c0e4
+      internalID: -310210109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ice_turret_FACE_11
+      name: zombie movement_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5
-        width: 30
-        height: 22
+        x: 14
+        y: 10
+        width: 25
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,13 +263,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 018a2648cd56c5843898ef25cbb4acb9
-      internalID: 2062797231
+      spriteID: 64817ce58c28d456bb3e4f1541d3fb1e
+      internalID: -1001387483
       vertices: []
       indices: 
       edges: []
       weights: []
-
+    - serializedVersion: 2
+      name: zombie movement_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef90bc3f0f43458db4dd7d25c2fce24
+      internalID: -1584975937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -386,21 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-
     nameFileIdTable:
-      ice_turret_FACE_0: 462312173
-      ice_turret_FACE_1: -1682189746
-      ice_turret_FACE_10: -2051613456
-      ice_turret_FACE_11: 2062797231
-      ice_turret_FACE_2: -1303255582
-      ice_turret_FACE_3: 277835405
-      ice_turret_FACE_4: 1102254437
-      ice_turret_FACE_5: -1946185427
-      ice_turret_FACE_6: 636280568
-      ice_turret_FACE_7: 1341486500
-      ice_turret_FACE_8: 134501524
-      ice_turret_FACE_9: -1150726269
-
+      zombie movement_0: 227882335
+      zombie movement_1: 313112318
+      zombie movement_2: 1096084510
+      zombie movement_3: 130885214
+      zombie movement_4: 866748656
+      zombie movement_5: -310210109
+      zombie movement_6: -1001387483
+      zombie movement_7: -1584975937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

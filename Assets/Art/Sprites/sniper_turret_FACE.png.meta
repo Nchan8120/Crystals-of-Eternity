@@ -121,6 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+
     sprites:
     - serializedVersion: 2
       name: sniper_turret_FACE_0
@@ -374,6 +375,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+
     outline: []
     physicsShape: []
     bones: []
@@ -384,6 +386,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+
     nameFileIdTable:
       sniper_turret_FACE_0: -854987548
       sniper_turret_FACE_1: 1985235213
@@ -397,6 +400,7 @@ TextureImporter:
       sniper_turret_FACE_7: 569083241
       sniper_turret_FACE_8: 9915406
       sniper_turret_FACE_9: -504759225
+
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

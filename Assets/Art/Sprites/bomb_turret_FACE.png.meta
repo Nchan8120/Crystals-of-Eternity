@@ -374,6 +374,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+      
     outline: []
     physicsShape: []
     bones: []
@@ -384,6 +385,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+
     nameFileIdTable:
       bomb_turret_FACE_0: 74319069
       bomb_turret_FACE_1: 1905186712
@@ -397,6 +399,7 @@ TextureImporter:
       bomb_turret_FACE_7: -149277292
       bomb_turret_FACE_8: 1589872374
       bomb_turret_FACE_9: -2013398082
+
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

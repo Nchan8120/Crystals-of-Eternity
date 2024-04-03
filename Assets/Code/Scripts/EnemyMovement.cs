@@ -14,7 +14,9 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int pathIndex = 0;
     private float basespeed;
-    
+
+    private float rotationSpeed = 500f;
+
     private void Start()
     {
         basespeed = moveSpeed;
@@ -48,6 +50,17 @@ public class EnemyMovement : MonoBehaviour
         Vector2 direction = (target.position - transform.position).normalized;
 
         rb.velocity = direction * moveSpeed;
+
+        // Rotates the enemy towards their movement direction
+
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        if (direction != Vector2.zero)
+        {
+            float step = rotationSpeed * Time.deltaTime;
+            Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, step);
+        }
     }
 
     public void UpdateSpeed(float newSpeed)
