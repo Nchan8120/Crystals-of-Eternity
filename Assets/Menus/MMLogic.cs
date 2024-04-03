@@ -10,6 +10,8 @@ public class MMLogic : MonoBehaviour
     public GameObject timedButton;
     public GameObject wavesButton;
 
+    public GameObject achievementsPanel;
+
 
     public void OnPlayButton()
     {
@@ -46,5 +48,10 @@ public class MMLogic : MonoBehaviour
     public void OnUpdgradeBayButton()
     {
         SceneManager.LoadScene(3);
+    }
+
+    public void OnAchievementsButton()
+    {
+        achievementsPanel.SetActive(true);
     }
 }
